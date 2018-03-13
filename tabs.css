@@ -1,0 +1,50 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+  }
+  
+  /* Selector #1  */
+  div.tabComponent input {}
+  
+  /* Selector #2  */
+  div.tabComponent label {}
+  
+  /*.tabComponent ul{
+      list-style: none;
+  }*/
+  
+  .tabComponent{
+      padding: 10px;
+  }
+  
+  
+  .tabComponent label{
+     transition: background-color 2s;
+       
+  }
+  
+  .tabComponent input:checked + label{
+      /*text-decoration: none;*/
+      /*display: block;*/
+      padding: 5px;
+      background-color: black;
+      color: white;
+  }
+  
+  .tabComponent div p{
+      padding: 10px;
+  }
+  
+  input:not(:checked) ~ .tab-content{
+      display: none;
+  }
+  
+  input#home:checked ~ .home-div,
+  input#kitchen:checked ~ .kitchen-div,
+  input#furniture:checked ~ .furniture-div,
+  input#clearance:checked ~ .clearance-div
+  {
+      display: block;
+  }
+  
