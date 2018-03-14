@@ -11,36 +11,115 @@
 
 <body>
 
-    <div class="tabComponent">
-        <!-- Insert code to create tabbed components here -->
-        <input type="radio" name="tabs" id="home" style="display:none;" checked>
-        <label for="home">Home</label>
-        <input type="radio" name="tabs" id="kitchen" style="display:none;">
-        <label for="kitchen">Kitchen</label>
-        <input type="radio" name="tabs" id="clearance" style="display:none;">
-        <label for="clearance">Clearance</label>
-        <input type="radio" name="tabs" id="furniture" style="display:none;">
-        <label for="furniture">Furniture</label>
+    <div id="container">
 
-        <div class="home-div tab-content">
-            <p>
-                Browse through our list of Home Decor items.
-            </p>
-        </div>
-        <div class="furniture-div tab-content">
-            <p>
-                Flash sale on living room and bedroom furniture.
-            </p>
-        </div>
-        <div class="kitchen-div tab-content">
-            <p>
-                Bring out the best of the masterchef in you!!
-            </p>
-        </div>
-        <div class="clearance-div tab-content">
-            <p>
-                Red hot deals at affordable prices. Check out our clearance section for more details.
-            </p>
+        <ul class="nav horizontal-nav-tabs">
+            <li class="nav-item ">
+                <a class="nav-link tab1 active" href="#">Home</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link tab2" href="#">Furniture</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link tab3" href="#">Kitchen</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link tab4" href="#">Clearance</a>
+            </li>
+        </ul>
+
+        <div class="tab-content">
+            <div class="tab-pane active">
+                <div class="image">
+                    <img src="img/home.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="published-date">
+                        <p>April 3, 2017</p>
+                    </div>
+                    <div class="article">
+                        <p class="title">
+                            Paint on a Brick Wall
+                        </p>
+                        <p class="content">Browse through our list of Home Decor items.
+                        </p>
+                    </div>
+                    <div class="more">
+                        <button class="read-more-btn">Read more...</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="tab-pane">
+                <div class="image">
+                    <img src="img/painting.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="published-date">
+                        <p>April 3, 2017</p>
+                    </div>
+                    <div class="article">
+                        <p class="title">
+                            Paint on a Brick Wall
+                        </p>
+                        <p class="content">Flash sale on living room and bedroom furniture.
+                        </p>
+                    </div>
+                    <div class="more">
+                        <button class="read-more-btn">Read more...</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="tab-pane">
+                <div class="image">
+                    <img src="img/painting.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="published-date">
+                        <p>April 3, 2017</p>
+                    </div>
+                    <div class="article">
+                        <p class="title">
+                            Paint on a Brick Wall
+                        </p>
+                        <p class="content">Bring out the best of the masterchef in you!!
+                        </p>
+                    </div>
+                    <div class="more">
+                        <button class="read-more-btn">Read more...</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="tab-pane">
+                <div class="image">
+                    <img src="img/painting.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="published-date">
+                        <p>April 3, 2017</p>
+                    </div>
+                    <div class="article">
+                        <p class="title">
+                            Paint on a Brick Wall
+                        </p>
+                        <p class="content">Red hot deals at affordable prices. Check out our clearance section for more details.
+                        </p>
+                    </div>
+                    <div class="more">
+                        <button class="read-more-btn">Read more...</button>
+                    </div>
+
+                </div>
+
+            </div>
         </div>
 
     </div>
