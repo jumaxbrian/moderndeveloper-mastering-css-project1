@@ -76,24 +76,25 @@ body{
 
 .tab1{
     padding-top: 23px;
+    background-color: rgba(23, 118, 147, 1);
 }
 
 .tab2{
     padding-top: 20px;
     margin-top: 4px;
-    background-color: rgba(23, 118, 147, 1);
+    background-color: rgba(23, 118, 147, .8);
 }
 
 .tab3{
     padding-top: 17px;
     margin-top: 7px;
-    background-color: rgba(23, 118, 147, .8);
+    background-color: rgba(23, 118, 147, .6);
 }
 
 .tab4{
     padding-top: 14px;
     margin-top: 10px;
-    background-color: rgba(23, 118, 147, .6);
+    background-color: rgba(23, 118, 147, .4);
 } 
 
 .tab-content{
